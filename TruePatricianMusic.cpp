@@ -320,7 +320,7 @@ void Genre::genreRecommend(std::string genre){
 /* no pre or post conditions. it couts the 100 scored albums in the library. */
 void Genre::patricianize(){
     Album *node;
-    cout<<"All of these albums are true patrician. Rated 100 outta 100 by my Anthony Fandago himself!"<<endl;
+    cout<<"All of these albums are true patrician. Rated 100 outta 100 by Mr. Dankthony Memetano himself!"<<endl;
     for(int i=0; i<library.size(); i++){
         node=library[i];
         while(node!=nil){

@@ -84,16 +84,16 @@ int main()
             cout<<"k"<<endl;
         }
         else if(option=="7"){
-            cout<<"\nThis suggestion is only for those with incomes >= 60k/year\n";
-            cout<<"Enter your gross adjusted income per year:\n";
+            cout<<"\nBeing a patrician, you must know the magic number to enter!\n";
+            cout<<"Enter something edgy:\n";
             string incomes = "";
             getline(cin, incomes);
             int income = atoi(incomes.c_str());
-            if(income < 60000){
+            if(income != 666){
                 cout<<"\nWe're very sorry, but pl3bs aren't welcome here.\n\n";
             }
             else{
-                cout<<"\nWelcome, sir.\n";
+                cout<<"\nWelcome, sir and/or ma'am.\n";
                 cout<<"May we suggest "<<muLibrary.patricianSuggestion()<<"?"<<endl<<"And as always, thank you for choosing Patrician Music Suggestions for your recomendation needs."<<endl<<endl;
             }
         }

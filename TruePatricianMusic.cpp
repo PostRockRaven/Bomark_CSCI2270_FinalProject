@@ -343,6 +343,9 @@ void Genre::GOAT(){
     for(int i=0; i<library.size(); i++){
         done=false;
         node=library[i];
+        if(node->score==0){
+            break;
+        }
         temp=node;
         while(done==false){
             albums=0;
